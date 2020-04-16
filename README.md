@@ -20,4 +20,4 @@ div{
 <button class="eko-btn color-monarch">My button</button>
 ```
 
-Check our <a href="https://styleguide.helloeko.com">styleguide</a> for more examples
+Check our <a href="http://styleguide.helloeko.com">styleguide</a> for more examples
