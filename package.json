@@ -1,0 +1,32 @@
+{
+    "name": "@ekolabs/gummi",
+    "version": "1.0.0",
+    "description": "Shared styling for eko.",
+    "dependencies": {
+        "susy": "^2.2.12",
+        "breakpoint-sass": "^2.7.0"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "eko": "./eko.js"
+    },
+    "preferGlobal": "true",
+    "repository": {
+        "type": "git",
+        "url": "git+https://bitbucket.org/ekolabs/gummi.git"
+    },
+    "author": {
+        "name": "Eko labs",
+        "url": "https://developer.helloeko.com",
+        "email": "dev@helloeko.com"
+    },
+    "contributors": [
+        {
+            "name": "Nir Mizrahi"
+        }
+    ],
+    "license": "Apache-2.0"
+}

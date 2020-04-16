@@ -1,0 +1,33 @@
+.eko-mouse-icon {
+    width: 10%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    .nexthint-icon {
+        height: 100%;
+        stroke: none;
+        fill: $bright;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .arrow-icon {
+        bottom: 0;
+    }
+
+    .mouse-icon {
+        top: 0;
+        @include breakpoint-6($bp-medium) {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+//FORM
+.eko-form {
+    @include display-flex;
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+
+    .eko-input, .eko-textarea {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .eko-input-container {
+        &.half {
+            width: 49%;
+            @include breakpoint($bp-medium) {
+                width: 100%;
+            }
+        }
+    }
+
+    .eko-btn {
+        margin: 0 auto;
+    }
+
+    &.single {
+        .eko-input {
+            @include flex(1);
+            margin-right: 20px;
+            margin-bottom: 0;
+            @include breakpoint($bp-medium) {
+                margin: 0 auto 20px auto;
+                @include flex(none);
+            }
+        }
+
+        .eko-btn {
+            height: 52px;
+            line-height: 52px;
+            @include breakpoint($bp-medium) {
+                height: 36px;
+                line-height: 36px;
+                padding: 0 36px;
+            }
+        }
+
+    }
+
+    //ERROR DESIGN
+    .error-text {
+        width: 100%;
+        position: absolute;
+        line-height: 30px;
+        background: $mandy;
+        color: $bright;
+        top: 52px;
+        display: block;
+        z-index: 5;
+        height: 0;
+        overflow: hidden;
+        @include transition(all 0.2s);
+        text-align: left;
+        padding-left: 22px;
+    }
+
+    .eko-textarea-container {
+        .error-text {
+            top: 140px;
+        }
+    }
+}

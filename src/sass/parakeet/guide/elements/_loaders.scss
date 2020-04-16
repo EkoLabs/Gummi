@@ -1,0 +1,23 @@
+.eko-loader {
+    @include ekoLoading(false);
+}
+
+.eko-loader-dark {
+    @include ekoLoading(true);
+}
+
+.eko-spinner-small {
+    @include ekoCircleLoader16(false);
+}
+
+.eko-spinner-small-dark {
+    @include ekoCircleLoader16(true);
+}
+
+.eko-spinner-big {
+    @include ekoCircleLoader32(false);
+}
+
+.eko-spinner-big-dark {
+    @include ekoCircleLoader32(true);
+}

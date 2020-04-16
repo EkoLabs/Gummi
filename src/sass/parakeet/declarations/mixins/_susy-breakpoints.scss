@@ -1,0 +1,25 @@
+@import "susy";
+//USE ONLY IF USING SUSY
+@mixin breakpoint-12($bp) {
+    @include susy-breakpoint($bp, 12) {
+        @content
+    }
+}
+
+@mixin breakpoint-8($bp) {
+    @include susy-breakpoint($bp, 8) {
+        @content
+    }
+}
+
+@mixin breakpoint-6($bp) {
+    @include susy-breakpoint($bp, 6) {
+        @content
+    }
+}
+
+@mixin breakpoint-4($bp) {
+    @include susy-breakpoint($bp, 4) {
+        @content
+    }
+}

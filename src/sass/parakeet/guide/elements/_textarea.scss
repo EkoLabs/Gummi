@@ -1,0 +1,40 @@
+.eko-textarea-container {
+    width: 100%;
+    position: relative;
+}
+
+//textarea
+.eko-textarea {
+    font-size: 16px;
+    line-height: 20px;
+    height: 140px;
+    background: rgba($bright, 0.4);
+    color: $bright;
+    padding: 22px;
+    resize: none;
+    border: 1px solid transparent;
+    @include input-placeholder {
+        color: $bright;
+        opacity: 0.6;
+    }
+
+    &.error {
+        border-color: $mandy;
+    }
+
+    &.focus, &:focus {
+        border-color: $bright;
+
+        &.error {
+            border-color: $mandy;
+
+            + div {
+                height: 30px;
+            }
+        }
+    }
+
+    &.dark {
+        background: rgba($dark, 0.4);
+    }
+}

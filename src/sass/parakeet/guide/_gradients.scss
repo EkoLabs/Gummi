@@ -1,0 +1,39 @@
+.eko-gradient-1 {
+    @include eko-gradient($monarch, $outrageous)
+}
+
+.eko-gradient-2 {
+    @include eko-gradient($outrageous, $rose)
+}
+
+.eko-gradient-3 {
+    @include eko-gradient($rose, $eggplant)
+}
+
+.eko-gradient-4 {
+    @include eko-gradient($eggplant, $violet)
+}
+
+.eko-gradient-5 {
+    @include eko-gradient($violet, $ribbon)
+}
+
+.eko-gradient-6 {
+    @include eko-gradient($ribbon, $aqua)
+}
+
+.eko-gradient-7 {
+    @include eko-gradient($aqua, $eko)
+}
+
+.eko-gradient-8 {
+    @include eko-gradient($eko, $malachite)
+}
+
+.eko-gradient-9 {
+    @include eko-gradient($malachite, $monarch)
+}
+
+.eko-gradient-full {
+    @include eko-gradient-full
+}

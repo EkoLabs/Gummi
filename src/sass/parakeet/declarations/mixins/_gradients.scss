@@ -1,0 +1,8 @@
+@mixin eko-gradient($color1, $color2) {
+    @include background-image(linear-gradient($color1 0%, $color2 100%));
+}
+
+@mixin eko-gradient-full {
+    @include background-image(linear-gradient($monarch 0%, $outrageous 12%, $rose 24%, $eggplant 36%, $violet 48%, $ribbon 60%, $aqua 72%, $eko 84%, $malachite 96%, $monarch 100%));
+}
+

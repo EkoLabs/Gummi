@@ -1,0 +1,60 @@
+@mixin font-size-1 {
+    font-family: $font-bold;
+    font-size: 100px;
+    line-height: 112px;
+}
+
+@mixin font-size-2 {
+    font-family: $font-bold;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+@mixin font-size-3 {
+    font-family: $font-bold;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+@mixin font-size-4 {
+    font-family: $font-bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+@mixin font-size-5 {
+    font-family: $font-bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+@mixin font-size-6 {
+    font-family: $font-bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+@mixin font-size-7 {
+    font-family: $font-regular;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@mixin font-size-8 {
+    font-family: $font-regular;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+@mixin font-size-9 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+@mixin font-size-10 {
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}

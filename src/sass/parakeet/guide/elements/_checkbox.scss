@@ -1,0 +1,93 @@
+//CHECKBOX
+.eko-checkbox {
+    text-align: center;
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    input[type=checkbox] + label {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        line-height: 24px;
+        padding-left: 35px;
+        cursor: pointer;
+
+        &:before {
+            content: '';
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            vertical-align: middle;
+            left: 0;
+            top: 0;
+            background: $bright;
+            position: absolute;
+        }
+    }
+
+    input[type=checkbox]:checked + label {
+        &:after {
+            content: '';
+            background: $rose;
+            width: 20px;
+            height: 20px;
+            position: Absolute;
+            left: 2px;
+            top: 2px;
+        }
+    }
+}
+
+.eko-checkbox.color-monarch input[type=checkbox]:checked + label:after {
+    background: $monarch
+}
+
+.eko-checkbox.color-outrageous input[type=checkbox]:checked + label:after {
+    background: $outrageous
+}
+
+.eko-checkbox.color-mandy input[type=checkbox]:checked + label:after {
+    background: $mandy
+}
+
+.eko-checkbox.color-eggplant input[type=checkbox]:checked + label:after {
+    background: $eggplant
+}
+
+.eko-checkbox.color-electric input[type=checkbox]:checked + label:after {
+    background: $electric
+}
+
+.eko-checkbox.color-violet input[type=checkbox]:checked + label:after {
+    background: $violet
+}
+
+.eko-checkbox.color-ribbon input[type=checkbox]:checked + label:after {
+    background: $ribbon
+}
+
+.eko-checkbox.color-aqua input[type=checkbox]:checked + label:after {
+    background: $aqua
+}
+
+.eko-checkbox.color-eko input[type=checkbox]:checked + label:after {
+    background: $eko
+}
+
+.eko-checkbox.color-aquamarine input[type=checkbox]:checked + label:after {
+    background: $aquamarine
+}
+
+.eko-checkbox.color-malachite input[type=checkbox]:checked + label:after {
+    background: $malachite
+}
+
+.eko-checkbox.color-rose input[type=checkbox]:checked + label:after {
+    background: $rose
+}
+
+.eko-checkbox.color-lemon input[type=checkbox]:checked + label:after {
+    background: $lemon
+}

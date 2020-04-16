@@ -1,0 +1,121 @@
+body {
+    font-family: $font-default;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    @include font-size-5;
+}
+
+h2 {
+    @include font-size-6;
+}
+
+h3 {
+    @include font-size-7;
+}
+
+h4 {
+    @include font-size-8;
+}
+
+h5 {
+    @include font-size-9;
+}
+
+.font-size-1 {
+    @include font-size-1
+}
+
+.font-size-2 {
+    @include font-size-2
+}
+
+.font-size-3 {
+    @include font-size-3
+}
+
+.font-size-4 {
+    @include font-size-4
+}
+
+.font-size-5 {
+    @include font-size-5
+}
+
+.font-size-6 {
+    @include font-size-6
+}
+
+.font-size-7 {
+    @include font-size-7
+}
+
+.font-size-8 {
+    @include font-size-8
+}
+
+.font-size-9 {
+    @include font-size-9
+}
+
+.font-size-10 {
+    @include font-size-10
+}
+
+.font-bold {
+    font-family: $font-bold
+}
+
+p {
+    @include font-size-9
+}
+
+p.small {
+    @include font-size-10
+}
+
+strong {
+    font-family: $font-default;
+    font-weight: 700;
+}
+
+input, textarea {
+    font-family: $font-default;
+    border: none;
+    outline: none;
+}
+
+li {
+    @include font-size-9;
+    padding-left: 30px;
+    list-style-type: circle;
+    list-style: initial;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+ul ul, ol ul {
+    list-style-type: circle;
+    list-style: initial;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+
+ol ol, ul ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+    margin-left: 15px;
+}

@@ -1,0 +1,284 @@
+//default button design
+.eko-btn {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 40px;
+    font-family: $font-bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+    @include transition(all 0.2s);
+    @include transition-property(background, color, box-shadow, transform, border);
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+    @include breakpoint($bp-medium) {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 36px;
+        font-size: 12px;
+    }
+
+    &.size-small {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 36px;
+    }
+}
+
+//main button colors
+.eko-btn.color-monarch {
+    @include eko-btn-primary($monarch)
+}
+
+.eko-btn.color-outrageous {
+    @include eko-btn-primary($outrageous)
+}
+
+.eko-btn.color-mandy {
+    @include eko-btn-primary($mandy)
+}
+
+.eko-btn.color-eggplant {
+    @include eko-btn-primary($eggplant)
+}
+
+.eko-btn.color-electric {
+    @include eko-btn-primary($electric)
+}
+
+.eko-btn.color-violet {
+    @include eko-btn-primary($violet)
+}
+
+.eko-btn.color-ribbon {
+    @include eko-btn-primary($ribbon)
+}
+
+.eko-btn.color-aqua {
+    @include eko-btn-primary($aqua)
+}
+
+.eko-btn.color-eko {
+    @include eko-btn-primary($eko)
+}
+
+.eko-btn.color-aquamarine {
+    @include eko-btn-primary($aquamarine)
+}
+
+.eko-btn.color-malachite {
+    @include eko-btn-primary($malachite)
+}
+
+.eko-btn.color-rose {
+    @include eko-btn-primary($rose)
+}
+
+.eko-btn.color-lemon {
+    @include eko-btn-primary($lemon)
+}
+
+.eko-btn.gradient-eggplant {
+    @include eko-btn-gradient($violet, $eggplant)
+}
+
+.eko-btn.gradient-aqua {
+    @include eko-btn-gradient($aqua, $malibu)
+}
+
+.eko-btn.gradient-outrageous {
+    @include eko-btn-gradient($outrageous, $mandy)
+}
+
+
+//border button colors
+.eko-btn.eko-btn-border.color-monarch {
+    @include eko-btn-border($monarch)
+}
+
+.eko-btn.eko-btn-border.color-outrageous {
+    @include eko-btn-border($outrageous)
+}
+
+.eko-btn.eko-btn-border.color-mandy {
+    @include eko-btn-border($mandy)
+}
+
+.eko-btn.eko-btn-border.color-eggplant {
+    @include eko-btn-border($eggplant)
+}
+
+.eko-btn.eko-btn-border.color-electric {
+    @include eko-btn-border($electric)
+}
+
+.eko-btn.eko-btn-border.color-violet {
+    @include eko-btn-border($violet)
+}
+
+.eko-btn.eko-btn-border.color-ribbon {
+    @include eko-btn-border($ribbon)
+}
+
+.eko-btn.eko-btn-border.color-aqua {
+    @include eko-btn-border($aqua)
+}
+
+.eko-btn.eko-btn-border.color-eko {
+    @include eko-btn-border($eko)
+}
+
+.eko-btn.eko-btn-border.color-aquamarine {
+    @include eko-btn-border($aquamarine)
+}
+
+.eko-btn.eko-btn-border.color-malachite {
+    @include eko-btn-border($malachite)
+}
+
+.eko-btn.eko-btn-border.color-rose {
+    @include eko-btn-border($rose)
+}
+
+.eko-btn.eko-btn-border.color-lemon {
+    @include eko-btn-border($lemon)
+}
+
+.eko-btn.eko-btn-border.color-white {
+    @include eko-btn-border($bright)
+}
+
+
+.isDesktop {
+    //default button hover design
+    .eko-btn:hover {
+        box-shadow: 0 10px 12px -8px rgba(0, 0, 0, 0.5);
+        @include transform(scale3d(1.05, 1.05, 1));
+    }
+
+    .eko-btn.color-monarch:hover {
+        @include eko-btn-primary-hover($monarch)
+    }
+
+    .eko-btn.color-outrageous:hover {
+        @include eko-btn-primary-hover($outrageous)
+    }
+
+    .eko-btn.color-mandy:hover {
+        @include eko-btn-primary-hover($mandy)
+    }
+
+    .eko-btn.color-eggplant:hover {
+        @include eko-btn-primary-hover($eggplant)
+    }
+
+    .eko-btn.color-electric:hover {
+        @include eko-btn-primary-hover($electric)
+    }
+
+    .eko-btn.color-violet:hover {
+        @include eko-btn-primary-hover($violet)
+    }
+
+    .eko-btn.color-ribbon:hover {
+        @include eko-btn-primary-hover($ribbon)
+    }
+
+    .eko-btn.color-aqua:hover {
+        @include eko-btn-primary-hover($aqua)
+    }
+
+    .eko-btn.color-eko:hover {
+        @include eko-btn-primary-hover($eko)
+    }
+
+    .eko-btn.color-aquamarine:hover {
+        @include eko-btn-primary-hover($aquamarine)
+    }
+
+    .eko-btn.color-malachite:hover {
+        @include eko-btn-primary-hover($malachite)
+    }
+
+    .eko-btn.color-rose:hover {
+        @include eko-btn-primary-hover($rose)
+    }
+
+    .eko-btn.color-lemon:hover {
+        @include eko-btn-primary-hover($lemon)
+    }
+
+    .eko-btn.gradient-eggplant:hover {
+        @include eko-btn-gradient-hover()
+    }
+
+    .eko-btn.gradient-aqua:hover {
+        @include eko-btn-gradient-hover()
+    }
+
+    .eko-btn.gradient-outrageous:hover {
+        @include eko-btn-gradient-hover()
+    }
+
+    //border
+    .eko-btn.eko-btn-border.color-monarch:hover {
+        @include eko-btn-border-hover($monarch)
+    }
+
+    .eko-btn.eko-btn-border.color-outrageous:hover {
+        @include eko-btn-border-hover($outrageous)
+    }
+
+    .eko-btn.eko-btn-border.color-mandy:hover {
+        @include eko-btn-border-hover($mandy)
+    }
+
+    .eko-btn.eko-btn-border.color-eggplant:hover {
+        @include eko-btn-border-hover($eggplant)
+    }
+
+    .eko-btn.eko-btn-border.color-electric:hover {
+        @include eko-btn-border-hover($electric)
+    }
+
+    .eko-btn.eko-btn-border.color-violet:hover {
+        @include eko-btn-border-hover($violet)
+    }
+
+    .eko-btn.eko-btn-border.color-ribbon:hover {
+        @include eko-btn-border-hover($ribbon)
+    }
+
+    .eko-btn.eko-btn-border.color-aqua:hover {
+        @include eko-btn-border-hover($aqua)
+    }
+
+    .eko-btn.eko-btn-border.color-eko:hover {
+        @include eko-btn-border-hover($eko)
+    }
+
+    .eko-btn.eko-btn-border.color-aquamarine:hover {
+        @include eko-btn-border-hover($aquamarine)
+    }
+
+    .eko-btn.eko-btn-border.color-malachite:hover {
+        @include eko-btn-border-hover($malachite)
+    }
+
+    .eko-btn.eko-btn-border.color-rose:hover {
+        @include eko-btn-border-hover($rose)
+    }
+
+    .eko-btn.eko-btn-border.color-lemon:hover {
+        @include eko-btn-border-hover($lemon)
+    }
+
+    .eko-btn.eko-btn-border.color-white:hover {
+        @include eko-btn-border-hover($bright);
+        color: $dark;
+    }
+}
