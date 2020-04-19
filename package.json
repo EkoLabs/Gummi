@@ -1,5 +1,5 @@
 {
-    "name": "@ekolabs/gummi",
+    "name": "gummi",
     "version": "1.0.0",
     "description": "Shared styling for eko.",
     "dependencies": {
