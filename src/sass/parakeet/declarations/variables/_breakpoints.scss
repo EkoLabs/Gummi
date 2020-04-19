@@ -1,7 +1,7 @@
 @import 'breakpoint';
 
-//@include breakpoint-set('to ems', true);
-$breakpoint-to-ems: true;
+@include breakpoint-set('to ems', true);
+//$breakpoint-to-ems: true;
 
 //DESKTOP FIRST
 $bp-xxxLarge: max-width 1600px;
