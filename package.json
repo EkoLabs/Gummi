@@ -10,18 +10,15 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "bin": {
-        "eko": "./eko.js"
-    },
     "preferGlobal": "true",
     "repository": {
         "type": "git",
-        "url": "git+https://bitbucket.org/ekolabs/gummi.git"
+        "url": "git+https://github.com/EkoLabs/gummi.git"
     },
     "author": {
         "name": "Eko labs",
-        "url": "https://developer.helloeko.com",
-        "email": "dev@helloeko.com"
+        "url": "https://developer.eko.com",
+        "email": "dev@eko.com"
     },
     "contributors": [
         {
